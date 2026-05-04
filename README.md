@@ -1,39 +1,13 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+<p align="center">
+    <img src="https://github.com/ultra-rony/polygon_map/blob/main/screenshots/logo.png?raw=true" height="200" alt="vk_video" />
+</p>
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+<p align="center">
+    <a href="https://pub.dev/packages/polygon_map"><img src="https://img.shields.io/badge/pub-v1.0.4-blue" alt="Pub"></a>
+    <a href="https://github.com/ultra-rony/polygon_map/releases"><img src="https://img.shields.io/badge/download-apk-blue" alt="apk"></a>
+    <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
+    <a href="https://pub.dev/packages/polygon_map/score"><img src="https://img.shields.io/badge/points-160/160-green" alt="Points"></a>
+    <a href="https://www.donationalerts.com/r/ultra_rony"><img src="https://img.shields.io/badge/support-donate-yellow" alt="Donate"></a>
+    <a href="https://pub.dev/packages/flutter_map"><img src="https://img.shields.io/badge/flutter_map-v8.3.0-blue" alt="flutter_map"></a>
+    <a href="https://pub.dev/packages/latlong2"><img src="https://img.shields.io/badge/latlong2-v0.9.1-blue" alt="latlong2"></a>
+</p>
