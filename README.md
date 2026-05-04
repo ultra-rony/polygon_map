@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <a href="https://pub.dev/packages/polygon_map"><img src="https://img.shields.io/badge/pub-v0.0.5-blue" alt="Pub"></a>
+    <a href="https://pub.dev/packages/polygon_map"><img src="https://img.shields.io/badge/pub-v0.0.6-blue" alt="Pub"></a>
     <a href="https://github.com/ultra-rony/polygon_map/releases"><img src="https://img.shields.io/badge/download-apk-blue" alt="apk"></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
     <a href="https://pub.dev/packages/polygon_map/score"><img src="https://img.shields.io/badge/points-160/160-green" alt="Points"></a>
@@ -36,7 +36,7 @@ To use this package, add it to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  polygon_map: ^0.0.5
+  polygon_map: ^0.0.6
 ```
 
 or run the command

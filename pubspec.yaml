@@ -1,6 +1,6 @@
 name: polygon_map
 description: "A flexible Flutter map widget for creating, editing, and managing polygons with interactive controls."
-version: 0.0.5
+version: 0.0.6
 homepage: https://github.com/ultra-rony/polygon_map
 
 repository: https://github.com/ultra-rony/polygon_map
