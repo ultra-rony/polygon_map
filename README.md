@@ -21,11 +21,11 @@
 ## Screenshots
 
 <p align="center">
-  <img src="https://github.com/ultra-rony/polygon_map/blob/main/screenshots/1.png?raw=true" width="45%" />
-  <img src="https://github.com/ultra-rony/polygon_map/blob/main/screenshots/2.png?raw=true" width="45%" />
+  <img src="https://github.com/ultra-rony/polygon_map/blob/main/screenshots/1.png?raw=true" height="250" />
+  <img src="https://github.com/ultra-rony/polygon_map/blob/main/screenshots/2.png?raw=true" height="250" />
 </p>
 
 <p align="center">
-  <img src="https://github.com/ultra-rony/polygon_map/blob/main/screenshots/3.png?raw=true" width="45%" />
-  <img src="https://github.com/ultra-rony/polygon_map/blob/main/screenshots/4.png?raw=true" width="45%" />
+  <img src="https://github.com/ultra-rony/polygon_map/blob/main/screenshots/3.png?raw=true" height="250" />
+  <img src="https://github.com/ultra-rony/polygon_map/blob/main/screenshots/4.png?raw=true" height="250" />
 </p>
