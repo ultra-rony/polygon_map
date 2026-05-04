@@ -47,8 +47,6 @@ flutter pub add polygon_map
 
 ## Using the player
 
-import
-
 ```dart
 class _MyAppState extends State<MyApp> {
   final controller = PolygonMapController();
