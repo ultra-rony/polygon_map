@@ -4,17 +4,35 @@ import 'package:latlong2/latlong.dart';
 
 void main() {
   // Entry point of the Flutter application
-  runApp(const MyApp());
+  runApp(const PolygonEditorApp());
 }
 
-class MyApp extends StatefulWidget {
-  const MyApp({super.key});
+class PolygonEditorApp extends StatelessWidget {
+  const PolygonEditorApp({super.key});
 
   @override
-  State<MyApp> createState() => _MyAppState();
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Polygon Map Demo',
+      theme: ThemeData(
+        useMaterial3: true,
+        colorSchemeSeed: Colors.blue,
+        brightness: Brightness.dark,
+      ),
+      home: const PolygonMapScreen(),
+    );
+  }
 }
 
-class _MyAppState extends State<MyApp> {
+class PolygonMapScreen extends StatefulWidget {
+  const PolygonMapScreen({super.key});
+
+  @override
+  State<PolygonMapScreen> createState() => _PolygonMapScreenState();
+}
+
+class _PolygonMapScreenState extends State<PolygonMapScreen> {
   // Controller that manages polygons and map interactions
   final controller = PolygonMapController();
 
@@ -58,16 +76,14 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-
-      // Root screen of the app
-      home: Scaffold(
-        body: PolygonMap(
+    return Scaffold(
+      body: SafeArea(
+        child: PolygonMap(
           controller: controller,
-
           // Use satellite map tiles
           mapType: MapTypeEnum.esriSatellite,
+          initialZoom: 11.5,
+          initialCenter: const LatLng(34.052235, -118.243683),
         ),
       ),
     );
